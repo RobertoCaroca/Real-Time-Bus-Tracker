@@ -56,7 +56,7 @@ let animation;
     } else {
       animationActive = false;
       clearTimeout(animation);
-      document.getElementById("startStopAnimationBtn").textContent = "Show Stops";
+      document.getElementById("startStopAnimationBtn").textContent = "Show Stops between MIT and Harvard";
     }
   }
   
