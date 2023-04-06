@@ -15,13 +15,13 @@ const busStops = [
 
 // TODO: add your own access token
 mapboxgl.accessToken = 
-'pk.eyJ1Ijoicm9iZXJ0b2Nhcm9jYSIsImEiOiJjbGcyZGM0b3QwNGV4M2txcmo3MDF3MDRsIn0.lY-eikcuAz3QFOlEkCvExA'; 
+'pk.eyJ1Ijoicm9iZXJ0b2Nhcm9jYSIsImEiOiJjbGcyZGM0b3QwNGV4M2txcmo3MDF3MDRsIn0.lY-eikcuAz3QFOlEkCvExA';
 
 // This is the map instance
 let map = new mapboxgl.Map({
   container: 'map',
   style: 'mapbox://styles/mapbox/streets-v11',
-  center: busStops[0],
+  center: [-71.104081, 42.365554],
   zoom: 14,
 });
 
